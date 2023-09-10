@@ -12,6 +12,10 @@ function createGrid(size){
 function changeGridSize(){
     let newSize = Number(prompt('Enter new grid size'));
     if(!newSize) return;
+    if(newSize > 100){
+        alert('Max size limit is 100');
+        return;
+    }
     createGrid(newSize);
     let newSquareSize = 32 / newSize; //calculating new size in rem
     let sqaures = document.querySelectorAll('.square');
