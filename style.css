@@ -13,10 +13,11 @@
     display: flex;
     flex-wrap: wrap;
     width: 32rem;
+    outline: black 2px solid;
+
 }
 
 .square{
     width: 2rem;
     height: 2rem;
-    outline: black 2px solid;
 }
