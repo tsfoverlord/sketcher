@@ -1,0 +1,22 @@
+.main-container h1 {
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 32rem;
+}
+
+.square{
+    width: 2rem;
+    height: 2rem;
+    outline: black 2px solid;
+}
